@@ -3,7 +3,7 @@ var todoList = document.getElementById("todo-list");
 var inputTodo = document.getElementById("enter");
 
 addBtn.addEventListener('click', function() {
-    var addTodo = document.createElement("p");
+    var addTodo = document.createElement("h2");
     addTodo.innerHTML = inputTodo.value;
     todoList.appendChild(addTodo);
     inputTodo.value= "";
