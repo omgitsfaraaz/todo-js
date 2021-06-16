@@ -7,7 +7,7 @@ addBtn.addEventListener('click', function() {
     addTodo.innerHTML = inputTodo.value;
     todoList.appendChild(addTodo);
     inputTodo.value= "";
-    addTodo.addEventListener('dblclick', function() {
+    addTodo.addEventListener('click', function() {
         todoList.removeChild(addTodo);
     });
 })
