@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.todo-div {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #f9432d;
+    outline: none;
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #212329;
+    color: #fff;
+}
+
+button:hover {
+    color: #f9432d;
+    transition: all 0.5s ease-in-out;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
